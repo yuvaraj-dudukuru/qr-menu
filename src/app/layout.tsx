@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "My Rj Menu",
-  description: "Instant QR menus for modern restaurants. No app downloads required. Just scan, order, and enjoy.",
+  title: "Yuvaraj QR Menu",
+  description: "Instant QR menus for modern restaurants by Yuvaraj Dudukuru. No app downloads required. Just scan, order, and enjoy.",
 }
 
 export default function RootLayout({

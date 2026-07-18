@@ -108,7 +108,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/Softenrj/qr-menu.git
+git clone https://github.com/yuvarajdudukuru/qr-menu.git
 cd qr-menu
 ```
 
@@ -164,6 +164,6 @@ This project is intended for **educational purposes only**. If you wish to use i
 ---
 
 <div align="center">
-  <b>Built with ❤️ by RJ Sharma</b> <br/>
-   <a href="mailto:rjsharmase@gmail.com">rjsharmase@gmail.com</a>
+  <b>Built with ❤️ by Yuvaraj Dudukuru</b> <br/>
+   <a href="mailto:dudukuruyuvaraj55@gmail.com">dudukuruyuvaraj55@gmail.com</a>
 </div>

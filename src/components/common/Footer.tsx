@@ -16,7 +16,7 @@ function Footer() {
                 {/* Brand */}
                 <div className="flex flex-col gap-4">
                     <Link href="/" className="text-2xl font-bold tracking-tight">
-                        <span className="text-[#A18D6D]">QR</span>Menu
+                        <span className="text-[#A18D6D]">Yuvaraj</span> QR Menu
                     </Link>
 
                     <p className="text-[#5e5240] text-sm leading-relaxed">
@@ -25,31 +25,32 @@ function Footer() {
                     </p>
 
                     <div className="flex items-center gap-3 pt-2">
-                        <Tooltip content="Instagram">
-                            <a href="https://www.instagram.com/raj_s.e?igsh=YjZqZmVsd3kwNWsx" className="text-[#5e5240] hover:text-[#A18D6D] transition">
-                                <Icon icon="ri:instagram-line" width="22" />
-                            </a>
-                        </Tooltip>
-
-                        <Tooltip content="Facebook">
-                            <a href="https://www.facebook.com/share/1BeSWL4QxY/" className="text-[#5e5240] hover:text-[#A18D6D] transition">
-                                <Icon icon="ri:facebook-line" width="22" />
+                        <Tooltip content="GitHub">
+                            <a href="https://github.com/yuvarajdudukuru" className="text-[#5e5240] hover:text-[#A18D6D] transition" target="_blank" rel="noreferrer">
+                                <Icon icon="ri:github-line" width="22" />
                             </a>
                         </Tooltip>
 
                         <Tooltip content="LinkedIn">
-                            <a href="https://www.linkedin.com/in/raj-sharma-23447527b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-[#5e5240] hover:text-[#A18D6D] transition">
+                            <a href="https://www.linkedin.com/in/yuvaraj-dudukuru/" className="text-[#5e5240] hover:text-[#A18D6D] transition" target="_blank" rel="noreferrer">
                                 <Icon icon="ri:linkedin-line" width="22" />
                             </a>
                         </Tooltip>
 
-                        <Tooltip content="GitHub">
-                            <a href="https://github.com/softenrj" className="text-[#5e5240] hover:text-[#A18D6D] transition">
-                                <Icon icon="ri:github-line" width="22" />
+                        <Tooltip content="Email">
+                            <a href="mailto:dudukuruyuvaraj55@gmail.com" className="text-[#5e5240] hover:text-[#A18D6D] transition">
+                                <Icon icon="ri:mail-line" width="22" />
+                            </a>
+                        </Tooltip>
+
+                        <Tooltip content="Phone">
+                            <a href="tel:+916305017247" className="text-[#5e5240] hover:text-[#A18D6D] transition">
+                                <Icon icon="ri:phone-line" width="22" />
                             </a>
                         </Tooltip>
                     </div>
-                    <a href="mailto:rjsharmase@gmail.com" className="italic from-accent-foreground">rajsharmase@gmail.com</a>
+                    <a href="mailto:dudukuruyuvaraj55@gmail.com" className="italic from-accent-foreground">dudukuruyuvaraj55@gmail.com</a>
+                    <a href="tel:+916305017247" className="italic from-accent-foreground">+91 6305017247</a>
                 </div>
 
                 {/* Product */}
@@ -95,7 +96,7 @@ function Footer() {
 
             {/* Bottom bar */}
             <div className="border-t border-[#e8e1d6] py-4 px-6 text-center text-xs text-[#7a6f5b]">
-                © {new Date().getFullYear()} QRMenu. All rights reserved.
+                © {new Date().getFullYear()} Yuvaraj Dudukuru. All rights reserved.
             </div>
         </footer>
     )

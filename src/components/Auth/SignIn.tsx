@@ -50,7 +50,7 @@ function Singup({ onChange, onClose }: { onChange: () => void, onClose: () => vo
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="raj@gmail.com"
+                    placeholder="dudukuruyuvaraj55@gmail.com"
                     required
                     className="h-11 rounded-lg border border-zinc-300 bg-white px-4 text-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20"
                 />

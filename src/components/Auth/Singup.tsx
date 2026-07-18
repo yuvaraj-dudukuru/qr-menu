@@ -62,7 +62,7 @@ function SignIn({ onChange, onClose }: { onChange: () => void, onClose: () => vo
                     id="name"
                     name="name"
                     type="text"
-                    placeholder="e.g. Raj Sharma"
+                    placeholder="e.g. Yuvaraj Dudukuru"
                     required
                     className="h-11 rounded-lg border border-zinc-300 bg-white px-4 text-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20"
                 />

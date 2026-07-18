@@ -4,7 +4,7 @@ First off, thank you for considering contributing to QR Menu! It's people like y
 
 ## Where do I go from here?
 
-If you've noticed a bug or have a feature request, make sure to check our [Issues](https://github.com/Softenrj/qr-menu/issues) section first to see if someone else has already created it. 
+If you've noticed a bug or have a feature request, make sure to check our [Issues](https://github.com/yuvarajdudukuru/qr-menu/issues) section first to see if someone else has already created it. 
 If not, feel free to **open a new issue**!
 
 ## Getting Started for Contributors
@@ -12,7 +12,7 @@ If not, feel free to **open a new issue**!
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/Softenrj/qr-menu.git
+   git clone https://github.com/yuvarajdudukuru/qr-menu.git
    ```
 3. **Install the dependencies**:
    ```bash
@@ -55,6 +55,6 @@ If not, feel free to **open a new issue**!
 
 ## Any questions?
 
-If you run into any trouble, have any questions, or would just like some guidance, don't hesitate to reach out! You can open a discussion on GitHub or email [rjsharmase@gmail.com](mailto:rjsharmase@gmail.com).
+If you run into any trouble, have any questions, or would just like some guidance, don't hesitate to reach out! You can open a discussion on GitHub or email [dudukuruyuvaraj55@gmail.com](mailto:dudukuruyuvaraj55@gmail.com).
 
 **Thank you for your contributions! 🚀**
