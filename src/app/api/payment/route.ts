@@ -7,10 +7,16 @@ import { Order } from "@/model/order"
 import { Transaction, TransactionStatus } from "@/model/transations"
 import { Merchants } from "@/model/merchants"
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID!,
-  key_secret: process.env.RAZORPAY_KEY_SECRET!,
-})
+const hasRazorpayConfig = Boolean(
+  process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET
+)
+
+const razorpay = hasRazorpayConfig
+  ? new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID!,
+      key_secret: process.env.RAZORPAY_KEY_SECRET!,
+    })
+  : null
 
 export async function GET(req: NextRequest) {
   try {
@@ -67,6 +73,14 @@ export async function GET(req: NextRequest) {
       })),
       amount,
     })
+
+    if (!razorpay) {
+      return sendRJResponse({
+        success: false,
+        message: "Payment is temporarily unavailable",
+        status: 503,
+      })
+    }
 
     const razorpayOrder = await razorpay.orders.create({
       amount: amount * 100,
