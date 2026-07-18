@@ -1,5 +1,1 @@
-// export const AppUrl = "http://localhost:3000"
-
-
-// Production 
-export const AppUrl = "https://qr-menu-lime.vercel.app/"
+export const AppUrl = process.env.NEXT_PUBLIC_APP_URL || "https://qr-menu-plum-mu.vercel.app"
