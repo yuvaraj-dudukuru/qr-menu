@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken"
 import mongoose from "mongoose";
 
 
-const JWT_SECRET = process.env.JWT_SECRET!
+const JWT_SECRET = process.env.JWT_SECRET || "fallback-secret-do-not-use-in-prod"
 
 export const tokenGenerator = (payload: userpayload): string | null => {
     try {

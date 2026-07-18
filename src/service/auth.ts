@@ -1,6 +1,6 @@
 import { IMerchants, IROLE, Merchants } from "@/model/merchants";
 import { tokenGenerator } from "@/utils/jwt";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { v4 as uuidv4 } from 'uuid';
 
 const SALT_ROUNDS = Number(process.env.SALT_ROUNDS) || 10

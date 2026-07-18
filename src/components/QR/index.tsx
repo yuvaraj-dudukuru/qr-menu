@@ -49,7 +49,7 @@ const GenerateQRPage = () => {
   }, [])
 
   const buildQRValue = (merchantId: string, name: string) =>
-    `${BASE_URL}/consumer/${merchantId}/${encodeURIComponent(name)}`
+    `${BASE_URL}/consumer/${merchantId}?id=${encodeURIComponent(name)}`
 
   const handlePreview = () => {
     if (!inputName.trim()) {
